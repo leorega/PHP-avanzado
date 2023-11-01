@@ -1,0 +1,65 @@
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+.form_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    color: tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input {
+    width: 80%;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.form_cont button {
+    height: 1.5rem;
+    color: white;
+    background-color: tomato;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.form_cont button:hover {
+    box-shadow: 0 0 5px 1px white;
+    border: 1px solid white;
+}
+
+.cont_clases {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+}
+
+.cont_clase {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, gray, white);
+    color: rgb(188, 70, 49);
+}
+
+.p {
+    width: 30%;
+    color: red;
+}

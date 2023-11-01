@@ -1,0 +1,56 @@
+
+.form_reg_cont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_reg_cont input {
+    width: 70%;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    margin: 0.4rem 0.2rem;
+}
+
+.form_reg_cont button:hover {
+    box-shadow: 0 0 5px 1px rgb(45, 45, 45);
+    border: 1px solid white;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_Ing_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_Ing_cont input {
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    margin: 0.4rem 0.2rem;
+}
+
+.button {
+    height: 1.5rem;
+    color: white;
+    background-color: tomato;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px 1px white;
+    border: 1px solid white;
+}

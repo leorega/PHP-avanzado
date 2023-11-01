@@ -1,0 +1,66 @@
+.table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.head {
+    background-color: tomato;
+}
+
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.body {
+    background-color: rgb(202, 202, 202);
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+td a {
+    color: blue;
+    font-weight: 600;
+    text-align: center;
+}
+
+td a:hover {
+    color: red;
+}
+
+aside {
+    text-align: center;
+}
+
+.cont_compra {
+    border: 2px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cont_compra h3 {
+    margin: 0 auto;
+}
+
+#button {
+    height: 1.5rem;
+    color: white;
+    background-color: tomato;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#button:hover {
+    box-shadow: 0 0 5px 1px white;
+    border: 1px solid white;
+}
